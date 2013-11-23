@@ -32,8 +32,7 @@ Create USB disk for ubuntu image
 ================================
 (Assume your usb disk is located at /dev/sdb in host machine)
 
-dd if=images/ubuntu32_gpt.raw of=/dev/sdb
-or
-dd if=images/ubuntu64_gpt.raw of=/dev/sdb
+<code>dd if=images/ubuntu32_gpt.raw of=/dev/sdb</code> <br>
+<code>dd if=images/ubuntu64_gpt.raw of=/dev/sdb</code>
 
     
