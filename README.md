@@ -18,7 +18,7 @@ Please reference https://docs.google.com/document/d/1l9nopR-M2ZGLFRTZ7nUzeXJCcvB
 
 Play Steps:
 ===========
-a) Get ubuntu32_gpt.raw.xz and ubuntu64_gpt.raw.xz from 
+a) Get ubuntu32_gpt.raw.xz and ubuntu64_gpt.raw.xz from https://skydrive.live.com/?cid=ce442b77cccd3a56&id=CE442B77CCCD3A56%217492 <br/>
    Because github.com disallow a single file exceed 100M, so ...
    Also you can build/install ubuntu32_gpt.raw and ubuntu64_gpt.raw by self according to the steps in above reference link.
    
