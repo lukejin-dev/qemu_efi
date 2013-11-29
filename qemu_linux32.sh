@@ -4,7 +4,7 @@ top="$(pwd)"
 bios_file=$top/ovmf/ken-IA32/bios.bin
 disk_file=$top/images/ubuntu32_gpt.raw
 compressed_disk_file=$disk_file.xz
-options="-hda $disk_file -m 1024 -serial file:log32.txt -vga cirrus"
+options="-hda $disk_file -m 1024 -serial pty -vga cirrus"
 qemu_cmd=qemu-system-i386
 addtional=$2
 
@@ -57,4 +57,4 @@ esac
 
 echo "@@ Start qemu ...."
 $qemu_cmd $options $bios_flag $addtional &
-tail -f log32.txt
+echo "Please notice the number of pts device like /dev/pts/3, then use \"screen /dev/pts/3\" to start serial console"
